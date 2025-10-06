@@ -208,6 +208,7 @@
             height: 420px;
             border-radius: 20px;
             object-fit: cover;
+            padding-left: 10%;
             box-shadow: 0 10px 30px rgba(96, 165, 250, 0.2);
             animation: float 6s ease-in-out infinite;
         }
@@ -245,6 +246,7 @@
         .skills-grid,
         .interests-grid {
             display: grid;
+            max-width: 20%;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 2rem;
         }
@@ -474,7 +476,6 @@
         <h2 class="section-title">Areas of Interest</h2>
         <div class="interests-grid">
             <div class="interest-card">
-                <i class="fas fa-globe"></i>
                 <div class="interests-section">
   <div class="interest-card">
     <i class="fas fa-lock"></i>
@@ -486,7 +487,7 @@
     </p>
   </div>
 <div class="interest-card"
-    <i class="fas fa-brain"></i>
+    <i class="fas fa-globe"></i>
     <h3>Machine Learning</h3>
     <p>
       Exploring the integration of <strong>Machine Learning</strong> models into full-stack solutions 
